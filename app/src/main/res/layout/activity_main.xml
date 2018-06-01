@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="423dp"
+        android:layout_height="523dp"
+        app:srcCompat="@drawable/rickshaw"
+        tools:layout_editor_absoluteX="-25dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="122dp"
+        android:layout_height="58dp"
+        android:text="QUICKPLAY"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="323dp"
+        tools:text="QUICKPLAY" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="121dp"
+        android:layout_height="56dp"
+        android:text="COMPITITION"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="267dp"
+        tools:text="COMPITITION" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:text="SETTING"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="389dp"
+        tools:text="SETTING" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="80dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="RATING"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="470dp"
+        tools:text="RATING" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="463dp"
+        tools:text="Help" />
+
+</android.support.constraint.ConstraintLayout>
